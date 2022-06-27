@@ -10,9 +10,5 @@ public class ChallengeJava {
 
         FileToObjectService file = new FileToObjectService();
 
-        ArrayList list = file.ReadLineFromFile("data_1.txt");
-
-        list.stream().forEach(System.out::println);
-
     }
 }
